@@ -81,8 +81,6 @@ y = 3
 x/y = 166.67%
 ```
 
-## Max
-
 
 ## Loop 1
 Given an integer `n`, print out a pyramid of centain kind (See examples).
