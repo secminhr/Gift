@@ -1,0 +1,176 @@
+# Basic Syntax
+## Hello C
+Print out "Hello C" on screen.
+
+**Example Input**
+
+No Input
+
+**Example Output**
+```
+Hello C
+```
+
+## Variable 1
+Read an interger `n`, and print the value of `2*n`
+
+**Example Input 1**
+```
+1
+```
+
+**Example Output 1**
+```
+2
+```
+---
+**Example Input 2**
+```
+10
+```
+**Example Output 2**
+```
+20
+```
+
+## Variable 2
+Given 2 integers `x` and `y`, print out the value of `x/y` with 5 digit after decimal point.
+
+**Example Input 1**
+```
+2 1
+```
+
+**Example Output2**
+```
+2.00000
+```
+---
+**Example Input 2**
+```
+5 3
+```
+
+**Example Output 2**
+```
+1.66667
+```
+
+## Format 
+Given 2 integers `x` and `y`, print out the percentage of `x/y` with 2 digit after decimal point.
+
+**Example Input 1**
+```
+x = 1 
+y = 2
+```
+
+**Example Output1**
+```
+x/y = 50.00%
+```
+---
+**Example Input 2**
+```
+x = 5 
+y = 3
+```
+
+**Example Output 2**
+```
+x/y = 166.67%
+```
+
+## Max
+
+
+## Loop 1
+Given an integer `n`, print out a pyramid of centain kind (See examples).
+
+**Example Input 1**
+```
+3
+```
+
+**Example Output 1**
+```
+*
+**
+***
+```
+---
+**Example Input 2**
+```
+10
+```
+
+**Example Output 2**
+```
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+```
+
+## Loop 2
+Given 2 integers `a`, `b`, print out a pyramid of centain kind (See examples).
+
+**Example Input 1**
+```
+1 3
+```
+
+**Example Output 1**
+```
+*
+**
+***
+```
+---
+**Example Input 2**
+```
+5 10
+```
+
+**Example Output 2**
+```
+*****
+******
+*******
+********
+*********
+**********
+```
+
+## Read until newline
+Given an unlimit sized string(end with newline), print it.
+
+**Example Input 1**
+```
+ttttttttaaaaaaaannnnnnnn0x0x0x0xtatatatanonononoc.c.c.c.rlrlrlrlahunahunatohatoh.p.p.p.p
+
+```
+
+**Example Output 1**
+```
+ttttttttaaaaaaaannnnnnnn0x0x0x0xtatatatanonononoc.c.c.c.rlrlrlrlahunahunatohatoh.p.p.p.p
+
+```
+
+**Example Input 2**
+```
+aoeusnthaoeusnth',.plrcg',.plrcg;qjkzvwmaoeusnth',.plrcg;qjklrcgaoeusnth',.pzvwm1234
+
+```
+
+**Example Output 2**
+```
+aoeusnthaoeusnth',.plrcg',.plrcg;qjkzvwmaoeusnth',.plrcg;qjklrcgaoeusnth',.pzvwm1234
+
+```
