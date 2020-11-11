@@ -196,6 +196,16 @@ Given 2 integers, print out the bigger one.
 10
 ```
 
+**Example Input 3**
+```
+10 10
+```
+
+**Example Output 3**
+```
+10
+```
+
 ## Max 2
 Given 3 integers, print out the biggest one.
 
@@ -218,6 +228,27 @@ Given 3 integers, print out the biggest one.
 ```
 15
 ```
+
+**Example Input 3**
+```
+10 10 5
+```
+
+**Example Output 3**
+```
+10
+```
+
+**Example Input 4**
+```
+5 5 11
+```
+
+**Example Output 4**
+```
+11
+```
+
 
 ## leap year
 Given a year, print out whether it is a leap year.
