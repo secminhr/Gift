@@ -218,3 +218,31 @@ Given 3 integers, print out the biggest one.
 ```
 15
 ```
+
+# Concepts Intergration
+
+## Array Iteration
+Given an interger `n` and `n` intergers in the next line.
+Print out the series of intergers backward.
+
+**Example Input 1**
+```
+5
+1 2 3 4 5
+```
+
+**Example Output 1**
+```
+5 4 3 2 1
+```
+
+**Example Input 2**
+```
+10
+1 2 4 65 76 234 342 12 34 51
+```
+
+**Example Output 2**
+```
+51 34 12 342 234 76 65 4 2 1
+```
