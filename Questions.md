@@ -314,3 +314,36 @@ Print out all even integers in the series in the same order.
 **Example Output 2**
 
 No Output
+
+## Prime Checker
+Given a interger `x`, print out whether it is a prime.
+
+**Example Input 1**
+```
+2
+```
+
+**Example Output 1**
+```
+Yes
+```
+
+**Example Input 2**
+```
+5
+```
+
+**Example Output 2**
+```
+Yes
+```
+
+**Example Input 3**
+```
+15
+```
+
+**Example Output 3**
+```
+No
+```
