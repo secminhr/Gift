@@ -195,3 +195,26 @@ Given 2 integers, print out the bigger one.
 ```
 10
 ```
+
+## Max 2
+Given 3 integers, print out the biggest one.
+
+**Example Input 1**
+```
+1 3 5
+```
+
+**Example Output 1**
+```
+5
+```
+
+**Example Input 2**
+```
+10 8 15
+```
+
+**Example Output 2**
+```
+15
+```
