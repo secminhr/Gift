@@ -219,6 +219,49 @@ Given 3 integers, print out the biggest one.
 15
 ```
 
+## leap year
+Given a year, print out whether it is a leap year.
+
+**Example Input 1**
+```
+1996
+```
+
+**Example Output 1**
+```
+Yes
+```
+
+**Example Input 2**
+```
+2001
+```
+
+**Example Output 2**
+```
+No
+```
+
+**Example Input 3**
+```
+3000
+```
+
+**Example Output 3**
+```
+No
+```
+
+**Example Input 4**
+```
+2000
+```
+
+**Example Output 4**
+```
+Yes
+```
+
 # Concepts Intergration
 
 ## Array Iteration
