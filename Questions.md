@@ -289,3 +289,27 @@ Print out the series of intergers backward.
 ```
 51 34 12 342 234 76 65 4 2 1
 ```
+
+## Even Filter
+Given an interger `n` and `n` intergers in the next line.
+Print out all even integers in the series in the same order.
+
+**Example Input 1**
+```
+10
+1 3 5 2 4 6 7 10 2 11
+```
+
+**Example Output 1**
+```
+2 4 6 2
+```
+
+**Example Input 2**
+```
+5
+1 3 5 7 9
+```
+
+**Example Output 2**
+No Output
