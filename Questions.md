@@ -172,3 +172,26 @@ aoeusnthaoeusnth',.plrcg',.plrcg;qjkzvwmaoeusnth',.plrcg;qjklrcgaoeusnth',.pzvwm
 aoeusnthaoeusnth',.plrcg',.plrcg;qjkzvwmaoeusnth',.plrcg;qjklrcgaoeusnth',.pzvwm1234
 
 ```
+
+## Max
+Given 2 integers, print out the bigger one.
+
+**Example Input 1**
+```
+3 5
+```
+
+**Example Output 1**
+```
+5
+```
+
+**Example Input 2**
+```
+10 3
+```
+
+**Example Output 2**
+```
+10
+```
