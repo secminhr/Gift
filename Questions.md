@@ -333,7 +333,7 @@ Print out all even integers in the series in the same order.
 
 **Example Output 1**
 ```
-2 4 6 2
+2 4 6 10 2
 ```
 
 **Example Input 2**
@@ -377,4 +377,37 @@ Yes
 **Example Output 3**
 ```
 No
+```
+
+## Grader
+Given a series of scores with unlimited length.
+All socers are integers.
+For each score, print out the correponding ranking with a newline according to the table below.
+| Score  | Ranking |
+|--------|---------|
+| 95~100 |   A+    |
+| 90~94  |   A     |
+| 80~89  |   B     |
+| 70~79  |   C     |
+| 60~69  |   D     |
+| 0~59   |   F     |
+
+**Example Input 1**
+```
+0 10 20 30 40 50 60 70 80 90 100
+```
+
+**Example Output 1**
+```
+F
+F
+F
+F
+F
+F
+D
+C
+B
+A
+A+
 ```
