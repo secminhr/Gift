@@ -600,7 +600,7 @@ If there are multiple values that are the same, and are maximum value, just prin
 <summary>Hint</summary>
   <ol>
     <li>Reading array</li>
-      By printing out the whole array, you can see whether you can read the whole array in correctly.
+      By printing out the whole array, you can check whether you can read the whole array in correctly.
     <li>Iteration through array</li>
       We can create a variable called <code>max</code>, which contains the <i>current</i> max value. <br>
       When we iterate through the array, update <pre>max</pre> if the ith integer is bigger than <code>max</code>. <br>
@@ -615,6 +615,14 @@ If there are multiple values that are the same, and are maximum value, just prin
 </details>
 
 ## Stars
+Given an odd integer `n`, `n >= 5`, print out certain kind of patterns (watch examples to see the pattern).
+
+**Example Input 1**
+```
+7
+```
+
+**Example Output 1**
 ```
  *******
 * ***** *
@@ -624,3 +632,29 @@ If there are multiple values that are the same, and are maximum value, just prin
 * ***** *
  *******
 ```
+
+**Example Input 2**
+```
+5
+```
+
+**Example Output 2**
+```
+ ***** 
+* *** *
+** * **
+* *** *
+ *****
+```
+
+<details>
+<summary>Hint</summary>
+  <ol>
+    <li>Reading n</li>
+      By printing out the number, you can check whether you can read `n` correctly.
+    <li>Finish top half (from row <code>0</code> to row <code>n/2</code></li>
+    <li>Finish bottom half</li>
+      Just the same as the top half, only in reversing order.
+  </ol>
+<br>
+</details>
