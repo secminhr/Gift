@@ -656,7 +656,7 @@ Given an odd integer `n`, `n >= 5`, print out certain kind of patterns (watch ex
       In order to finish this, we need even smaller steps.
       <ol>
         <li>Print certain <code>i</code>(<code>0 &lt= i &lt= n/2+1</code>) row</li>
-          Note: the index of center row is <code>n/2 + 1</code><br>
+          <i>Note: the index of center row is <code>n/2 + 1</code></i><br>
           By observing the pattern, you may find out that <code>i</code> is the same as the stars number before first space, and the stars number after second space. <br>
           Therefore, the number of remaining center stars is <code>n - 2*i</code>, and the total length of a row is a contant <code>n+2</code>.
           With the coditions above, we can contruct a loop to print <code>i</code> row.
