@@ -347,7 +347,7 @@ Print out all even integers in the series in the same order.
 No Output
 
 ## Prime Checker
-Given a interger `x`, print out whether it is a prime.
+Given a interger `x`, print out whether it is a prime number.
 
 **Example Input 1**
 ```
@@ -560,4 +560,6 @@ Read it into a 2D-array, change the value of the position on 2nd row, 1st column
 ```
 
 # Challenges
-In this section, I'll provide you with some complex problems.
+In this section, I'll provide you with more complex problems than above.
+For each problem, you can first think of your own solution and try to implement it.
+After you finished, (or you couldn't think of any), check out the hints of the problem and try to follow the hints to complete it.
