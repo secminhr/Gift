@@ -410,6 +410,7 @@ C
 B
 A
 A+
+
 ```
 
 ## Character Manipulation
@@ -567,3 +568,38 @@ You may have to combine several concepts and use multiple steps.
 For each problem, you can first think of your own solution and try to implement it.
 
 After you finished, (or you couldn't think of any), check out the hints of the problem and try to follow the hints to complete it.
+
+## Max in Array
+Given an integer `n`, and an array, which consist of integers, of size `n` in the next line.
+Print out the max integer inside the array.
+If there are multiple values that are the same, and are maximum value, just print it.
+
+**Example Input 1**
+```
+10
+1 51 123 5 94 81 2 34 219 384
+```
+
+**Example Output 1**
+```
+384
+```
+
+**Example Input 2**
+```
+15
+109 38 4 7 128 7 935 651 43 85 19 3 24 7258 67
+```
+
+**Example Output 2**
+```
+7258
+```
+
+<details>
+<summary>Hint</summary>
+  <ol>
+    <li></li>
+  </ol>
+<br>
+</details>
