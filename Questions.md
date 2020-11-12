@@ -411,3 +411,31 @@ B
 A
 A+
 ```
+
+## Character Manipulation
+Given an integer `n`, representing the size of the following string.
+The string cosists of characters of any kind.
+Your job is to make every lowercase letters uppercase, and vice versa.
+For other characters that are not is the alphabet, just print it.
+
+**Example Input 1**
+```
+10
+abON19.[ta
+```
+
+**Example Output 1**
+```
+ABon19.[TA
+```
+
+**Example Input 2**
+```
+15
+'9lrAEpg.,U,nuO
+```
+
+**Example Output 2**
+```
+'9LRaePG.,u,NUo
+```
