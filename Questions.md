@@ -651,10 +651,35 @@ Given an odd integer `n`, `n >= 5`, print out certain kind of patterns (watch ex
 <summary>Hint</summary>
   <ol>
     <li>Reading n</li>
-      By printing out the number, you can check whether you can read `n` correctly.
-    <li>Finish top half (from row <code>0</code> to row <code>n/2</code></li>
+    By printing out the number, you can check whether you can read <code>n</code> correctly.
+    <li>Finish top half (from row <code>0</code> to row <code>n/2</code>)</li>
+      In order to finish this, we need even smaller steps.
+      <ol>
+        <li>Print certain <code>i</code>(<code>0 &lt= i &lt= n/2+1</code>) row</li>
+          Note: the index of center row is <code>n/2 + 1</code>
+          By observing the pattern, you may find out that <code>i</code> is the same as the stars number before first space, and the stars number after second space. <br>
+          Therefore, the number of remaining center stars is <code>n - 2*i</code>, and the total length of a row is a contant <code>n+2</code>.
+          With the coditions above, we can contruct a loop to print <code>i</code> row.
+          <details>
+            <summary>Code</summary>
+<pre>
+for (int a = 0; a < n+2; a++) {
+  if (a == i) {
+    printf(" ");
+  } else if (a == n+1 - i) {
+    printf(" ");
+  } else {
+    printf("*");
+  }
+}
+printf("\n");
+</pre>
+          </details>
+          <li>Print each row</li>
+             If your last step succeed, now you can create a loop to print each row of top half.
+      </ol>
     <li>Finish bottom half</li>
-      Just the same as the top half, only in reversing order.
+      Just the same as the top half, only in reversing order, and the middle row should be omitted.
   </ol>
 <br>
 </details>
