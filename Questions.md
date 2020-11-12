@@ -439,3 +439,41 @@ ABon19.[TA
 ```
 '9LRaePG.,u,NUo
 ```
+
+## Palindrome
+A palindrome is a word that is the same when you read it forwards from the beginning or backwards from the end.
+Given a number `n` and a string with length `n` on the next line.
+Print out whether it is a palindrome.
+
+**Example Input 1**
+```
+5
+level
+```
+
+**Example Output 1**
+```
+Yes
+```
+
+**Example Input 2**
+```
+4
+noon
+```
+
+**Example Output 2**
+```
+Yes
+```
+
+**Example Input 3**
+```
+7
+adobeee
+```
+
+**Example Output 3**
+```
+No
+```
