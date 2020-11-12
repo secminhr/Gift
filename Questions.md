@@ -615,6 +615,7 @@ If there are multiple values that are the same, and are maximum value, just prin
 </details>
 
 ## Stars
+```
  *******
 * ***** *
 ** *** **
@@ -622,3 +623,4 @@ If there are multiple values that are the same, and are maximum value, just prin
 ** *** **
 * ***** *
  *******
+```
