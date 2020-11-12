@@ -570,7 +570,7 @@ For each problem, you can first think of your own solution and try to implement 
 After you finished, (or you couldn't think of any), check out the hints of the problem and try to follow the hints to complete it.
 
 ## Max in Array
-Given an integer `n`, and an array, which consist of integers, of size `n` in the next line.
+Given an integer `n`, and an array, which consist of positive integers, of size `n` in the next line.
 Print out the max integer inside the array.
 If there are multiple values that are the same, and are maximum value, just print it.
 
@@ -599,7 +599,17 @@ If there are multiple values that are the same, and are maximum value, just prin
 <details>
 <summary>Hint</summary>
   <ol>
-    <li></li>
+    <li>Reading array</li>
+      By printing out the whole array, you can see whether you can read the whole array in correctly.
+    <li>Iteration through array</li>
+      We can create a variable called <code>max</code>, which contains the <i>current</i> max value. <br>
+      When we iterate through the array, update <pre>max</pre> if the ith integer is bigger than <code>max</code>. <br>
+      For example, consider the following array <br>
+      <pre>3 4 2 1</pre>
+      When we meet 3, we'll update <code>max</code> to 3 since it's the biggest so far. <br>
+      Then, we meet 4, update <code>max</code> to 4 since it's the biggest so far (bigger than the privous one(3)). <br>
+      Then, we meet 2, we won't update <code>max</code> since it's smaller than <code>max</code>(4). <br>
+      Finally, we meet 1, we won't update <code>max</code> since it's stiller than <code>max</code>(4). <br>
   </ol>
 <br>
 </details>
