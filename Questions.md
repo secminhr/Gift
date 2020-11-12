@@ -561,5 +561,6 @@ Read it into a 2D-array, change the value of the position on 2nd row, 1st column
 
 # Challenges
 In this section, I'll provide you with more complex problems than above.
+You may have to combine several concepts and use multiple steps.
 For each problem, you can first think of your own solution and try to implement it.
 After you finished, (or you couldn't think of any), check out the hints of the problem and try to follow the hints to complete it.
