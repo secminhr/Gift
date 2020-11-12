@@ -416,7 +416,7 @@ A+
 Given an integer `n`, representing the size of the following string.
 The string cosists of characters of any kind.
 Your job is to make every lowercase letters uppercase, and vice versa.
-For other characters that are not is the alphabet, just print it.
+For other characters that are not in the alphabet, just print it.
 
 **Example Input 1**
 ```
