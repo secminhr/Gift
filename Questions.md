@@ -477,3 +477,48 @@ adobeee
 ```
 No
 ```
+
+## 2D Array
+Given 2 integers `h` and `w`.
+The following will be a 2D-array with height `h` and width `w`.
+Read it into a 2D-array and print it out.
+
+**Example Input 1**
+```
+4 5
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+```
+
+**Example Output 1**
+```
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+```
+
+**Example Input 2**
+```
+5 3
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+13 14 15
+```
+
+**Example Output 2**
+```
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+13 14 15
+```
+
+
+# Challenges
+In this section, I'll provide you with some complex problems.
