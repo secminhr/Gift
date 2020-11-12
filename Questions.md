@@ -613,3 +613,12 @@ If there are multiple values that are the same, and are maximum value, just prin
   </ol>
 <br>
 </details>
+
+## Stars
+ *******
+* ***** *
+** *** **
+*** * ***
+** *** **
+* ***** *
+ *******
